@@ -8,7 +8,7 @@ import os
 
 token = os.getenv('token')
 
-url = 'https://api.ipgeolocation.io/v3/ipgeo?apiKey=1b83608bb4ea44c9a694eaeb2a1e66b2'
+url = 'https://api.ipgeolocation.io/v3/ipgeo?apiKey=#your api key from (https://ipgeolocation.io)'
 logging.basicConfig(
 	format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 	level = logging.INFO
